@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #060042;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,#060042),color-stop(108%,#20A39E));
+    background-image: linear-gradient(#060042 2%,#20A39E 108%);
+    color: #ffffff;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    object-fit: cover;
+    width: 204px;
+    height: 100px;
+    margin: inherit;
+}
+
+a, a.featured-URL:hover {
+    background-color: #060042;
+    color: #ffffff;
+}
+
+a {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 15px auto;
+    padding: 15px 20px;
+    font-size: 0.85rem;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+   
+a.featured-URL {
+    position: relative;
+    background-color: #ffffff;
+    color: #060042;
+    font-weight: bold;
+}
+
+a.featured-URL:before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;            
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        border: 2px solid #060042;
+}
+
+h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.social {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.social a {
+    flex: 1;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #060042;
+    border: none;
+}
+.social a:last-child {
+    margin-right: 0px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+.podcast {
+    display: flex;
+    max-width: 747px;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+}
+.podcast a {
+    flex: 1;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #060042;
+    border: none;
+}
+.podcast a:last-child {
+    margin-right: 0px;
+}
+
+.podcast a:hover {
+    text-decoration: underline;
+}
+
+.copyright-container {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #ffffff;
+    color: #060042;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copyright-container:before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;            
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+}
+
+
+.copyright-container p {
+    text-transform: uppercase;
+}
+
+a.featured-URL {
+    position: relative;
+    background-color: #ffffff;
+    color: #060042;
+    font-weight: bold;
+}
+
+a.featured-URL:before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;            
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        border: 2px solid #060042;
+}
