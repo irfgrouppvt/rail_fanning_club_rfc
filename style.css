@@ -8,6 +8,19 @@ html {
     box-sizing: inherit;
 }
 
+body::-webkit-scrollbar {
+     width: 1em;
+}
+     
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+     
+body::-webkit-scrollbar-thumb {
+   background-color: darkgrey;
+   outline: 1px solid slategrey;
+}
+
 body {
     background-color: #060042;
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,#060042),color-stop(108%,#20A39E));
