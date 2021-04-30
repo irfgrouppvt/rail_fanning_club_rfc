@@ -6,7 +6,7 @@
 - 🎓 &nbsp; Student in Senior Secondary Standards.
 - 💼 &nbsp; Content Creator & Administrator, The Rail Fanning Club.
 - 🌱 &nbsp; Learning about Indian Railways and it's all related subsidaries.
-- ❤️ &nbsp; Loves my India & it's railway services, but also it's defence services.
+- ❤️ &nbsp; Loves my India & it's railway services.
 
 <br/>
 
